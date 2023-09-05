@@ -91,7 +91,7 @@
           document.getElementById('imageUpload').value = ''
           updateImage()
         }, 2000)
-        console.log('response', res.data.data)
+        // console.log('response', res.data.data)
       })
       .catch(function (error) {
         errorMessage.value = error.response.data.error.message
